@@ -5,47 +5,47 @@ translation-type: tm+mt
 ---
 # Istruzioni
 
-**Nota: Questa pagina (o qualsiasi pagina leggimi. md) non verrà pubblicata nella documentazione del cliente**
+**Nota: Questa pagina (o qualsiasi altra pagina Leggimi.md) non verrà pubblicata nella documentazione rivolta al cliente**
 
 ## Sommario
 
-+ `TOC.md` nella directory principale della guida utente fornisce l'organizzazione degli argomenti contenuti nella guida per questa soluzione.
-+ Ogni guida utente è univoca `TOC.md`, in cui potete ordinare tutte le pagine o gli argomenti secondo necessità.
++ `TOC.md` nella parte principale della guida utente è disponibile l'organizzazione degli argomenti contenuti nella guida per questa soluzione.
++ Ogni guida utente dispone di una propria guida `TOC.md`in cui è possibile ordinare tutte le pagine e gli argomenti in base alle esigenze.
 + La prima pagina di tutte le guide utente è `overview.md`.
 
 ## Guida utente
 
-+ L'introduzione alla guida utente è denominata `overview.md`
-+ Ogni argomento nella guida utente dispone di una directory distinta.
++ L’introduzione alla guida utente è denominata `overview.md`
++ Ogni argomento della guida utente ha una propria directory distinta.
    + Se nella guida è presente un argomento denominato *Implementazione*, la directory corrispondente è `/implementation`
-+ Tutte le risorse di immagini sono memorizzate nella `/assets` directory principale della guida utente.
-   + Tutte le immagini della `/assets` directory vengono localizzate.
-   + Tutte le immagini della `/no-localize` directory non vengono localizzate (c'è una sorpresa!). Questo può essere utilizzato per garantire nelle versioni loc che le risorse specifiche non vengono riprodotte inutilmente.
++ Tutte le risorse immagine sono memorizzate nella `/assets` directory principale della guida utente.
+   + Tutte le immagini nella `/assets` directory verranno localizzate.
+   + Tutte le immagini nella `/no-localize` directory non verranno localizzate (c'è una sorpresa!). Questo può essere utilizzato per garantire che nelle versioni localizzate non vengano riprodotte risorse specifiche inutilmente.
 
-## Metadati livello guida utente
+## Metadati a livello di guida utente
 
-+ I metadati che descrivono la guida utente sono memorizzati in `TOC.md`. Ciò include:
-   + product - nome del prodotto/funzionalità.
++ I metadati che descrivono la guida utente sono memorizzati nel `TOC.md`. Ciò include:
+   + product - nome del prodotto/capacità.
    + cloud - cloud a cui appartiene il prodotto.
-   + pubblico - pubblico o archetype al quale viene indirizzato il targeting.
-   + guida utente - Nome della guida utente.
+   + audience - audience o archetipo a cui viene indirizzata la guida.
+   + guida utente - nome della guida utente.
 
-## Metadati di livello di pagina
+## Metadati a livello di pagina
 
-+ I metadati necessari per descrivere un documento sono memorizzati come parte di ogni singola pagina. Ciò include:
-   + titolo - titolo della pagina.
++ I metadati necessari per descrivere un documento vengono memorizzati come parte di ogni singola pagina. Ciò include:
+   + title - titolo della pagina.
    + descrizione - descrizione della pagina.
    + seo-title - titolo alternativo.
-   + seo-description - titolo alternativo a scopo SEO.
-   + breve titolo - (campo facoltativo).
-   + index - yes/no - la pagina verrà indicizzata dalla piattaforma di ricerca di Adobe.
-   + translate - yes/no - will this page be localized.
+   + seo-description - titolo alternativo ai fini del SEO.
+   + short-title - (campo facoltativo).
+   + index - yes / no - la pagina verrà indicizzata dalla piattaforma di ricerca di Adobe.
+   + translate - yes / no - questa pagina sarà localizzata.
    + versione - utilizzata principalmente per AEM e Campaign, per indicare la versione del prodotto.
-   + private-feature-pack - utilizzato principalmente per AEM.
-   + beta - this product in beta?
-   + reindirizzamento: può essere utilizzato per creare un ref a una nuova pagina.
-   + doc-type: reference (predefinito)/troubleshooting/developer/tutorial/kb/whitepaper.
+   + pacchetto di funzioni private, utilizzato principalmente per AEM.
+   + beta - questo prodotto è in beta?
+   + reindirizzamento: può essere utilizzato per creare un riferimento a una nuova pagina, se necessario.
+   + doc-type: reference (predefinito) / risoluzione dei problemi / sviluppatore / esercitazione / kb / whitepaper.
 
 ## Ulteriori informazioni
 
-Per ulteriori istruzioni sulla pubblicazione, guide di stile, esempi e altre risorse, visitate il [repo della documentazione Collaborativo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Per ulteriori istruzioni di pubblicazione, guide di stile, esempi e altre risorse, visitare il [Collaborative Documentation Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
