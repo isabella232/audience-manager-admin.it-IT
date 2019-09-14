@@ -1,20 +1,20 @@
 ---
-description: Accedi allo strumento Amministrazione Adobe Audience Manager con il browser Web. Lo strumento Amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. Puoi anche visualizzare o modificare il profilo personale.
-seo-description: Accedi allo strumento Amministrazione Adobe Audience Manager con il browser Web. Lo strumento Amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. Puoi anche visualizzare o modificare il profilo personale.
-seo-title: Accesso all'amministratore di Audience Manager
-title: Accesso all'amministratore di Audience Manager
-uuid: 9 ba 84 a 90-e 596-4 aca -9 bf 7-f 7 dcf 5 c 1 cca 5
+description: Accedi allo strumento di amministrazione Adobe Audience Manager con il browser Web. Lo strumento di amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. Puoi anche visualizzare o modificare il tuo profilo personale.
+seo-description: Accedi allo strumento di amministrazione Adobe Audience Manager con il browser Web. Lo strumento di amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. Puoi anche visualizzare o modificare il tuo profilo personale.
+seo-title: Accesso ad Audience Manager Admin
+title: Accesso ad Audience Manager Admin
+uuid: 9ba84a90-e596-4aca-9bf7-f7dcf5c1cca5
 translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 ---
 
 
-# Accesso all'amministratore di Audience Manager {#log-in-to-audience-manager-admin}
+# Accesso ad Audience Manager Admin {#log-in-to-audience-manager-admin}
 
-Accedi allo strumento Amministrazione Adobe Audience Manager con il browser Web. Lo strumento Amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. Puoi anche visualizzare o modificare il profilo personale.
+Accedi allo strumento di amministrazione Adobe Audience Manager con il browser Web. Lo strumento di amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. Puoi anche visualizzare o modificare il tuo profilo personale.
 
 <!-- t_login.xml -->
 
-1. Accedi allo strumento Audience Manager [!DNL Admin] sfogliando i [!DNL URL]seguenti elementi: [https://admin.demdex.com/](https://admin.demdex.com/).
-1. Selezionate il metodo di verifica desiderato nel riquadro a discesa e fate clic **[!UICONTROL Verify]** su.
+1. Accedete allo strumento Audience Manager [!DNL Admin] visitando i seguenti [!DNL URL]: [https://admin.demdex.com/](https://admin.demdex.com/).
+1. Seleziona il metodo di verifica desiderato nella casella a discesa e fai clic su **[!UICONTROL Verify]**.
