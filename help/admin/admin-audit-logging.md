@@ -1,8 +1,8 @@
 ---
-description: 'Usa Registrazione audit come prima posizione per il debug dei problemi dei clienti. '
-seo-description: 'Usa Registrazione audit come prima posizione per il debug dei problemi dei clienti. '
-seo-title: Registrazione di controllo
-title: Registrazione di controllo
+description: 'Utilizzate la funzione di registrazione dei controlli come primo punto di partenza per il debug dei problemi dei clienti. '
+seo-description: 'Utilizzate la funzione di registrazione dei controlli come primo punto di partenza per il debug dei problemi dei clienti. '
+seo-title: Registrazione controllo
+title: Registrazione controllo
 uuid: null
 translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
@@ -10,17 +10,17 @@ source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 ---
 
 
-# Registrazione di controllo {#audit-logging}
+# Registrazione controllo {#audit-logging}
 
-Utilizzate [!UICONTROL  Audit Logging] come prima posizione per il debug dei problemi dei clienti.
+Utilizzate [!UICONTROL  Audit Logging] come punto di partenza per il debug dei problemi dei clienti.
 
 > [!NOTE]
 >
->[!UICONTROL Audit Logging] è attualmente in fase di sviluppo e soggetta a modifiche. Please log any issues you meet in [!DNL JIRA] ([!DNL UI] team)
+>[!UICONTROL Audit Logging] è attualmente in fase di sviluppo e soggetto a modifiche. Registrare eventuali problemi riscontrati [!DNL JIRA] ([!DNL UI] team)
 
-![Visualizzazione Registrazione di controllo](assets/audit-logging-img.png)
+![Visualizzazione Registrazione controllo](assets/audit-logging-img.png)
 
-Nel **selettore** a discesa Tipo di controllo, scegliere tra:
+Nel selettore a discesa **Tipo** di controllo, scegliete tra:
 
 * [!UICONTROL Partner]
 * [!UICONTROL User]
@@ -39,7 +39,7 @@ Nel **selettore** a discesa Tipo di controllo, scegliere tra:
 * [!UICONTROL Model]
 * [!UICONTROL Segment Test Group]
 
-L'ID **oggetto** è l'ID dell'elemento che stai cercando. Consultate la tabella seguente per quale ID corrisponde all'ID oggetto in ciascun caso:
+L'ID **** oggetto è l'ID dell'elemento di cui si sta eseguendo la ricerca. Vedi la tabella seguente per cui l’ID corrisponde all’ID oggetto in ogni caso:
 
 | Tipo di controllo | ID oggetto |
 ---------|----------|
@@ -60,4 +60,4 @@ L'ID **oggetto** è l'ID dell'elemento che stai cercando. Consultate la tabella 
 | [!UICONTROL Model] | N/D |
 | [!UICONTROL Segment Test Group] | N/D |
 
-Utilizzate [!UICONTROL Start Date] ([!DNL UTC]) e [!UICONTROL End Date] ([!DNL UTC]) per limitare l'intervallo di tempo dei registri.
+Utilizzate [!UICONTROL Start Date] ([!DNL UTC]) e [!UICONTROL End Date] ([!DNL UTC]) per restringere l'intervallo di tempo dei registri.
