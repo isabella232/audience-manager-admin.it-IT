@@ -1,8 +1,8 @@
 ---
 description: Esempi di combinazioni di macro HTTP comunemente utilizzate.
 seo-description: Esempi di combinazioni di macro HTTP comunemente utilizzate.
-seo-title: ' Esempi di macro del formato HTTP'
-title: ' Esempi di macro del formato HTTP'
+seo-title: Esempi di macro del formato HTTP
+title: Esempi di macro del formato HTTP
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
 translation-type: tm+mt
 source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
