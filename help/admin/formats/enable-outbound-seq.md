@@ -1,8 +1,8 @@
 ---
 description: Potete abilitare i trasferimenti batch binari SEQ (Hadoop Sequence Files) in uscita per i clienti Audience Manager.
 seo-description: Potete abilitare i trasferimenti batch binari SEQ (Hadoop Sequence Files) in uscita per i clienti Audience Manager.
-seo-title: ' Abilita trasferimenti di file di sequenza Hadoop per i file in uscita'
-title: ' Abilita trasferimenti di file di sequenza Hadoop per i file in uscita'
+seo-title: Abilita trasferimenti di file di sequenza Hadoop per i file in uscita
+title: Abilita trasferimenti di file di sequenza Hadoop per i file in uscita
 uuid: 301985b1-5ff6-4112-a353-2e5a97e7eec0
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
