@@ -1,8 +1,8 @@
 ---
 description: Le opzioni di Device Graph sono disponibili per le società che partecipano ad Adobe Experience Cloud Device Co-op. Se un cliente ha anche una relazione contrattuale con un fornitore di grafici per dispositivi di terze parti integrato con Audience Manager, questa sezione mostra le opzioni per il grafico del dispositivo. Queste opzioni si trovano in Società > Nome società > Profilo > Opzioni Device Graph.
 seo-description: Le opzioni di Device Graph sono disponibili per le società che partecipano ad Adobe Experience Cloud Device Co-op. Se un cliente ha anche una relazione contrattuale con un fornitore di grafici per dispositivi di terze parti integrato con Audience Manager, questa sezione mostra le opzioni per il grafico del dispositivo. Queste opzioni si trovano in Società > Nome società > Profilo > Opzioni Device Graph.
-seo-title: ' Opzioni di Device Graph per le aziende'
-title: ' Opzioni di Device Graph per le aziende'
+seo-title: Opzioni di Device Graph per le aziende
+title: Opzioni di Device Graph per le aziende
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 translation-type: tm+mt
 source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
