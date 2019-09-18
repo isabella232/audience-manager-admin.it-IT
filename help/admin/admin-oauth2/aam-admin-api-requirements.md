@@ -1,8 +1,8 @@
 ---
 description: Cose di cui dovreste incoraggiare i clienti a essere consapevoli quando lavorano con le API di Audience Manager.
 seo-description: Cose di cui dovreste incoraggiare i clienti a essere consapevoli quando lavorano con le API di Audience Manager.
-seo-title: ' Requisiti API e raccomandazioni'
-title: ' Requisiti API e raccomandazioni'
+seo-title: Requisiti API e raccomandazioni
+title: Requisiti API e raccomandazioni
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
