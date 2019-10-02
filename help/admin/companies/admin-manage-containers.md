@@ -5,12 +5,12 @@ seo-title: Gestisci contenitori
 title: Gestisci contenitori
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
 
 ---
 
 
-# Gestisci contenitori {#manage-containers}
+# Manage Containers {#manage-containers}
 
 Visualizzare o modificare i provider di dati per i contenitori.
 
@@ -18,7 +18,7 @@ Visualizzare o modificare i provider di dati per i contenitori.
 
 >[!NOTE]
 >
->Per impostazione predefinita, le società vengono create con un contenitore. Puoi creare altri contenitori per una società nell’interfaccia utente in **[!UICONTROL Manage Data > Tags]**.
+>Per impostazione predefinita, le società vengono create con un contenitore. Puoi creare altri contenitori per una società nell’interfaccia utente in **[!UICONTROL Tools > Tags]**.
 
 1. Fate clic **[!UICONTROL Companies]**, quindi individuate e fate clic sulla società desiderata per visualizzare la [!UICONTROL Profile] pagina.
 
