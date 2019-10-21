@@ -5,26 +5,26 @@ solution-hub-url: https://helpx.adobe.com/support/audience-manager.html
 solution-image: assets/aam-icon-24.png
 getting-started-title: Introduzione
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
+tutorials-title: Esercitazioni
+tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.en
 index: false
 translation-type: tm+mt
-source-git-commit: a6af108f2d22ed648e87b09198f34f89ebb5e906
+source-git-commit: b9d0dc2a2daf067435b62e4d2e2bc0784fbe3baf
 
 ---
 
 
-# Metadata for internal use
+# Metadati per uso interno
 
-The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+Il file metadata.md include metadati a livello di repo che passano ai file TOC.md della guida utente nella repo. Se desiderate modificare il contenuto metadata.md per qualsiasi guida utente, effettuate questa operazione in qualsiasi file TOC.md.
 
 | metadata | cosa |
 |--- |--- |
-| solution-title | Used in article header as link |
-| solution-hub-url | Opens helpx hub page |
-| solution-icon | Displays solution icon next to solution title. Non ancora implementato |
+| solution-title | Utilizzato nell'intestazione dell'articolo come collegamento |
+| solution-hub-url | Apre la pagina centrale helpx |
+| solution-icon | Visualizza l'icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
 | getting-started | Link alla pagina di guida introduttiva |
 | tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o esercitazioni KT |
-| mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra a destra. Il valore predefinito è 2 |
+| mini-livelli | Determina il numero di livelli di intestazione visualizzati nella barra a destra. Il valore predefinito è 2 |
 | git-repo | Specifica la posizione del repo principale per uso interno |
