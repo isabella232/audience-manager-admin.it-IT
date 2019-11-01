@@ -5,12 +5,12 @@ seo-title: Gestisci contenitori
 title: Gestisci contenitori
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
-source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
 
-# Manage Containers {#manage-containers}
+# Gestisci contenitori {#manage-containers}
 
 Visualizzare o modificare i provider di dati per i contenitori.
 
@@ -38,7 +38,7 @@ Visualizzare o modificare i provider di dati per i contenitori.
 
 1. Fate clic su **[!UICONTROL Save]** se avete apportato delle modifiche.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Sincronizzazione ID con Media Optimizer](../companies/admin-amo-sync.md#concept_2B5537233DAA4860B3503B344F937D83)
 
