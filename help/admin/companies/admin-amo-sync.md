@@ -5,7 +5,7 @@ seo-title: Sincronizzazione ID con Media Optimizer
 title: Sincronizzazione ID con Media Optimizer
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
 translation-type: tm+mt
-source-git-commit: 40a6ca5d34ec72d8b88bc18f2e2b5390c2ea6f5e
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -26,7 +26,7 @@ La tabella seguente descrive lo stato di sincronizzazione di un'origine dati.
 | Attivato (indipendentemente dalla versione del servizio ID) | Un’origine dati si sincronizza con [!DNL AMO] qualsiasi versione del servizio ID quando: <ul><li>L'origine dati viene visualizzata nell' [!UICONTROL Selected Data Sources] elenco.</li><li>La [!DNL AMO] casella di controllo non *è* selezionata.</li></ul> |
 | Attivato (indipendentemente dalla versione del servizio ID) | Un’origine dati si sincronizza con [!DNL AMO] la versione 2.0 (o successiva del servizio ID) quando: <ul><li>L'origine dati viene visualizzata nell' [!UICONTROL Selected Data Sources] elenco.</li><li>La [!DNL AMO] casella di controllo *è* selezionata.</li></ul> |
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Gestisci contenitori](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967)
 
