@@ -5,7 +5,7 @@ seo-title: Opzioni di Device Graph per le aziende
 title: Opzioni di Device Graph per le aziende
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 translation-type: tm+mt
-source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -46,7 +46,7 @@ Queste caselle di controllo sono attivate nel [!DNL Admin UI] momento in cui un 
 
 ![](assets/adminUI2.png)
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Opzioni Regola di unione profilo definite](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
 >* [Impostazioni origine dati e opzioni menu](https://marketing.adobe.com/resources/help/en_US/aam/datasource-settings-definitions.html)
