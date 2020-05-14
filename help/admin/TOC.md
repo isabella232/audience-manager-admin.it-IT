@@ -1,18 +1,21 @@
 ---
-product: audience manager
+product: audience-manager
 audience: admin
 user-guide-title: Guida per l'amministratore di Audience Manager
 translation-type: tm+mt
-source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
+source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 5%
 
 ---
 
 
-# Guida per l'amministratore di Audience Manager {#admin-guide}
+# Guida per l&#39;amministratore di Audience Manager {#admin-guide}
 
 + [Audience Manager - Home](admin-home.md)
 + [Accesso ad Audience Manager Admin](admin-login.md)
-+ [Come richiedere l'accesso dell'amministratore funzionale](admin-access.md)
++ [Come richiedere l&#39;accesso dell&#39;amministratore funzionale](admin-access.md)
 + aziende;{#companies}
    + [aziende;](companies/admin-companies-overview.md)
    + [Creazione di un profilo società](companies/admin-manage-company-profiles.md)
@@ -30,7 +33,7 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
    + [Creare o modificare un server FTP](admin-servers/create-ftp-server.md)
    + [Creare o modificare un server HTTP](admin-servers/create-http-server.md)
    + [Creare o modificare un server S3](admin-servers/create-s3-server.md)
-   + [Autorizzazione dell'accesso al bundle Amazon S3 tra account](admin-servers/admin-authorize-s3-cross-bucket.md)
+   + [Autorizzazione dell&#39;accesso al bundle Amazon S3 tra account](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [Eliminare un server](admin-servers/admin-delete-server.md)
 + Generazione di rapporti  {#reporting}
    + [Generazione di rapporti](admin-reporting/admin-reporting-overview.md)
@@ -46,7 +49,6 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 + Client OAuth2{#oath2-clients}
    + [Client OAuth2](admin-oauth2/admin-oauth2-create-edit.md)
    + [Requisiti API e raccomandazioni](admin-oauth2/aam-admin-api-requirements.md)
-+ [Utenti integrazione](admin-manage-integration-users.md)
 + [Registrazione controllo](admin-audit-logging.md)
 + [Profilo personale](admin-my-profile.md)
 + [Risoluzione dei problemi di impostazione della destinazione](admin-destination-troubleshooting.md)
