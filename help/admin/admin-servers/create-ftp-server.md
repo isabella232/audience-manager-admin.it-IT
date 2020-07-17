@@ -1,6 +1,6 @@
 ---
-description: Utilizzate la pagina Server dello strumento di amministrazione di Audience Manager per creare un nuovo server FTP o per modificare un server esistente.
-seo-description: Utilizzate la pagina Server dello strumento di amministrazione di Audience Manager per creare un nuovo server FTP o per modificare un server esistente.
+description: Utilizzare la pagina Server nello  Audience Manager Admin Tool per creare un nuovo server FTP o per modificare un server esistente.
+seo-description: Utilizzare la pagina Server nello  Audience Manager Admin Tool per creare un nuovo server FTP o per modificare un server esistente.
 seo-title: Creare o modificare un server FTP
 title: Creare o modificare un server FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # Creare o modificare un server FTP {#create-or-edit-an-ftp-server}
 
-Utilizzate la [!UICONTROL Servers] pagina nello strumento di amministrazione di Audience Manager per creare un nuovo server FTP o per modificare un server esistente.
+Utilizza la [!UICONTROL Servers] pagina nello strumento di amministrazione Audience Manager  per creare un nuovo server FTP o per modificare un server esistente.
 
 >[!NOTE]
 >
@@ -27,18 +27,19 @@ Utilizzate la [!UICONTROL Servers] pagina nello strumento di amministrazione di 
 
    >[!NOTE]
    >
-   >Come procedura ottimale, si consiglia di utilizzare [!DNL Amazon S3] come metodo per ottenere i file da e consegnare i file ai partner. [!DNL Amazon S3] fornisce una semplice interfaccia di servizi Web che può essere utilizzata per archiviare e recuperare qualsiasi quantità di dati, in qualsiasi momento, da qualsiasi punto del web. Per ulteriori informazioni, consulta [Informazioni su Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) nella Guida utente di *Audience Manager*.
+   >Come procedura ottimale, si consiglia di utilizzare [!DNL Amazon S3] come metodo per ottenere i file da e consegnare i file ai partner. [!DNL Amazon S3] fornisce una semplice interfaccia di servizi Web che può essere utilizzata per archiviare e recuperare qualsiasi quantità di dati, in qualsiasi momento, da qualsiasi punto del web. Per ulteriori informazioni, consultate [Informazioni su Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) nella Guida *utente di* Audience Manager.
 
 1. Compila i campi:
 
    * **[!UICONTROL Type]:**Selezionare il tipo di crittografia desiderato:**[!UICONTROL SFTP]**o **[!UICONTROL FTPs/TLS]**.
    * **[!UICONTROL Domain]:**Specificare il dominio desiderato (host) per il server.
    * **[!UICONTROL Port]:**Specificare la porta desiderata per il server. Per ogni tipo di crittografia viene visualizzata la porta predefinita. Se necessario, potete modificare la porta predefinita.
-   * **[!UICONTROL Remote Path]:**Specificare il percorso remoto desiderato per il server. Se lasciate vuoto questo campo, Audience Manager inserisce i file nella directory predefinita.
+   * **[!UICONTROL Remote Path]:**Specificare il percorso remoto desiderato per il server. Se lasciate vuoto questo campo,  Audience Manager inserisce i file nella directory predefinita.
    * **[!UICONTROL .tmp File Rename on Completion]:**Abilitate questa opzione per rinominare il`.tmp`file al termine.
    * **[!UICONTROL Filename Suffix]:**Specificate il testo da aggiungere per trasferire i file.
    * **[!UICONTROL Moved to When Finished]:**Specificare il percorso del percorso in cui spostare il file di trasferimento al termine.
    * **[!UICONTROL Authentication]:**Specificate il metodo di autenticazione del server desiderato:**[!UICONTROL Username/Password]**o **[!UICONTROL SSH Key]**.
+
    >[!NOTE]
    >
    >Ricorda di aggiungere la nostra uscita [!DNL FTP][!DNL IP] alla tua lista di IP consentiti: **52.44.29.2004**.
