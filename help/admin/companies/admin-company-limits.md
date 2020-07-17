@@ -1,28 +1,31 @@
 ---
-description: Gestisci i seguenti limiti per modelli algoritmici, segmenti, destinazioni e caratteristiche aziendali.
-seo-description: Gestisci i seguenti limiti per modelli algoritmici, segmenti, destinazioni e caratteristiche aziendali.
-seo-title: Gestisci limiti società
-title: Gestisci limiti società
+description: Gestisci i seguenti limiti per i modelli algoritmici, i segmenti, le destinazioni e le caratteristiche della società.
+seo-description: Gestisci i seguenti limiti per i modelli algoritmici, i segmenti, le destinazioni e le caratteristiche della società.
+seo-title: Gestire i limiti aziendali
+title: Gestire i limiti aziendali
 uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 4%
 
 ---
 
 
-# Gestisci limiti società {#manage-company-limits}
+# Gestire i limiti aziendali {#manage-company-limits}
 
 Gestisci i seguenti limiti per la società: modelli algoritmici, segmenti, destinazioni e caratteristiche.
 
 <!-- t_company_limits.xml -->
 
 1. Fate clic **[!UICONTROL Companies]**, quindi individuate e fate clic sulla società desiderata per visualizzare la [!UICONTROL Profile] pagina. Utilizzate la [!UICONTROL Search] casella o i controlli di impaginazione in fondo all’elenco per trovare la società desiderata. Potete ordinare ciascuna colonna in ordine crescente o decrescente facendo clic sull’intestazione della colonna desiderata.
-1. Click the **[!UICONTROL Limits]** tab.
+1. Fate clic sulla **[!UICONTROL Limits]** scheda.
 1. Compila i campi:
 
    >[!NOTE]
    >
-   >Se uno dei campi è vuoto, il valore predefinito è al momento illimitato. Tutti i campi sono indipendenti. Ad esempio, nella [!UICONTROL Trait Limits] sezione, potete specificare 100 per [!UICONTROL Total Traits] e 100 per gli altri tipi di caratteristiche. La somma di [!UICONTROL Max Number of Algorithmic Traits], [!UICONTROL Max Number or Rule Based Traits], e [!UICONTROL Max Number of Onboarded Traits] non equivale a [!UICONTROL Total Number].
+   >Se uno dei campi è vuoto, il valore predefinito è al momento illimitato. Tutti i campi sono indipendenti. Ad esempio, nella [!UICONTROL Trait Limits] sezione , è possibile specificare 100 per [!UICONTROL Total Traits] e 100 per gli altri tipi di caratteristiche. La somma di [!UICONTROL Max Number of Algorithmic Traits], [!UICONTROL Max Number or Rule Based Traits], e [!UICONTROL Max Number of Onboarded Traits] non equivale a [!UICONTROL Total Number].
 
    * **[!UICONTROL Trait Folder Limits]**: Specifica i [!UICONTROL Trait Folder] limiti per la società:
       * **[!UICONTROL Max number of Trait Folders]**: Specificate il numero massimo di [!UICONTROL Trait Folders] società.
@@ -41,4 +44,4 @@ Gestisci i seguenti limiti per la società: modelli algoritmici, segmenti, desti
       * **[!UICONTROL Max Number of Algorithmic Traits]**: Specificate il numero massimo di caratteristiche algoritmiche che la società può avere.
       * **[!UICONTROL Max Number of Rule Based Traits]**: Specificate il numero massimo di caratteristiche basate su regola che la società può avere.
       * **[!UICONTROL Max Number of Onboarded Traits]**: Specificate il numero massimo di caratteristiche registrate che la società può avere.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
