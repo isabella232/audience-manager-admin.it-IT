@@ -1,16 +1,19 @@
 ---
 description: Visualizzare o modificare i provider di dati per i contenitori.
 seo-description: Visualizzare o modificare i provider di dati per i contenitori.
-seo-title: Gestisci contenitori
-title: Gestisci contenitori
+seo-title: Gestire i contenitori
+title: Gestire i contenitori
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 7%
 
 ---
 
 
-# Gestisci contenitori {#manage-containers}
+# Gestire i contenitori {#manage-containers}
 
 Visualizzare o modificare i provider di dati per i contenitori.
 
@@ -24,7 +27,7 @@ Visualizzare o modificare i provider di dati per i contenitori.
 
    Utilizzate la [!UICONTROL Search] casella o i controlli di impaginazione in fondo all’elenco per trovare la società desiderata. Potete ordinare ciascuna colonna in ordine crescente o decrescente facendo clic sull’intestazione della colonna desiderata.
 
-1. Click the **[!UICONTROL Containers]** tab.
+1. Fate clic sulla **[!UICONTROL Containers]** scheda.
 
    ![](assets/containers.png)
 
@@ -34,7 +37,7 @@ Visualizzare o modificare i provider di dati per i contenitori.
 
 1. Spostare le origini dati dagli **[!UICONTROL Available Data Sources]** **[!UICONTROL Selected Data Sources for This Container]** elenchi e dagli elenchi selezionando le origini dati desiderate, quindi facendo clic sulle frecce destra o sinistra come necessario.
 
-   È inoltre possibile eseguire questa attività dall'area [Fornitori dati di terze parti](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689).
+   È inoltre possibile eseguire questa attività dall&#39;area [Fornitori dati di terze parti](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689).
 
 1. Fate clic su **[!UICONTROL Save]** se avete apportato delle modifiche.
 
