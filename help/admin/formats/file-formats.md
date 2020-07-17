@@ -1,22 +1,25 @@
 ---
 description: Elenca le macro utilizzabili per creare file di dati basati su FTP. Alcune macro possono essere utilizzate per tutti i campi e le righe del file di dati. Altre macro sono specifiche solo per righe di intestazione e dati.
 seo-description: Elenca le macro utilizzabili per creare file di dati basati su FTP. Alcune macro possono essere utilizzate per tutti i campi e le righe del file di dati. Altre macro sono specifiche solo per righe di intestazione e dati.
-seo-title: Macro formato file
-title: Macro formato file
+seo-title: Macro per formati file
+title: Macro per formati file
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
 source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 2%
 
 ---
 
 
-# Macro formato file {#file-format-macros}
+# Macro per formati file {#file-format-macros}
 
 Elenca le macro utilizzabili per creare file di dati [!DNL FTP]basati su. Alcune macro possono essere utilizzate per tutti i campi e le righe del file di dati. Altre macro sono specifiche solo per righe di intestazione e dati.
 
 ## Macro comuni {#common-macros}
 
-Tali macro possono essere utilizzate in qualsiasi campo di formato. Ad esempio, vedere Esempi [di macro](../formats/file-format-examples.md)Formato file.
+Tali macro possono essere utilizzate in qualsiasi campo di formato. Per gli esempi, vedere Esempi [di macro](../formats/file-format-examples.md)Formato file.
 
 <table id="table_A3309E175ABF4651BD11CE3632B3C553"> 
  <thead> 
@@ -32,7 +35,7 @@ Tali macro possono essere utilizzate in qualsiasi campo di formato. Ad esempio, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
-   <td colname="col2"> <p>ID provider dati di destinazione. </p> </td> 
+   <td colname="col2"> <p>ID provider dati Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MASTER_DPID</code> </p> </td> 
@@ -65,14 +68,14 @@ Tali macro possono essere utilizzate in qualsiasi campo di formato. Ad esempio, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIMESTAMP</code> </p> </td> 
-   <td colname="col2"> <p>Una marca temporale di 10 cifre, UTC e Unix. </p> <p>Può anche essere formattato come <code>YYYYMMDDhmmss</code> dopo le regole di formattazione data/timestamp Java. </p> </td> 
+   <td colname="col2"> <p>Una marca temporale di 10 cifre, UTC e Unix. </p> <p>Può anche essere formattato come <code>YYYYMMDDhhmmss</code> segue le regole di formattazione Java data/timestamp. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Macro dei campi di intestazione {#header-field-macros}
 
-Macro utilizzate solo nei campi di intestazione. Ad esempio, vedere Esempi [di macro](../formats/file-format-examples.md)Formato file.
+Macro utilizzate solo nei campi di intestazione. Per gli esempi, vedere Esempi [di macro](../formats/file-format-examples.md)Formato file.
 
 <table id="table_1A8BD1750F4940B3A34E3F80371A447A"> 
  <thead> 
@@ -89,9 +92,9 @@ Macro utilizzate solo nei campi di intestazione. Ad esempio, vedere Esempi [di m
  </tbody> 
 </table>
 
-## Macro di righe dati {#data-row-macros}
+## Macro delle righe di dati {#data-row-macros}
 
-Macro utilizzate solo nelle righe di dati. Ad esempio, vedere Esempi [di macro](../formats/file-format-examples.md)Formato file.
+Macro utilizzate solo nelle righe di dati. Per gli esempi, vedere Esempi [di macro](../formats/file-format-examples.md)Formato file.
 
 <table id="table_E378F94A3907407AA8110C8EE6C10909"> 
  <thead> 
@@ -111,7 +114,7 @@ Macro utilizzate solo nelle righe di dati. Ad esempio, vedere Esempi [di macro](
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identificatore Utente Univoco Partner Dati </span>. Restituisce l’ID assegnato a un visitatore utente/sito se l’ID è già stato sincronizzato con un ID dispositivo <span class="keyword"> Audience Manager </span> . </p> <p>Se il DPID è pari a 0, questa macro restituirà l’ID <span class="keyword"> Audience Manager </span> invece dell’ID per l’utente. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Identificatore Utente Univoco Partner Dati </span>. Restituisce l’ID assegnato a un visitatore utente/sito se l’ID è già stato sincronizzato con un ID dispositivo <span class="keyword"> Audience Manager </span> . </p> <p>Se il DPID è pari a 0, questa macro restituirà l' <span class="keyword"> Audience Manager </span> ID  invece dell'ID per l'utente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -119,11 +122,11 @@ Macro utilizzate solo nelle righe di dati. Ad esempio, vedere Esempi [di macro](
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPUUIDS</code> </p> </td> 
-   <td colname="col2"> <p>L'output di questa macro mappa l'ID del provider di dati (DPID) con gli ID utente univoci correlati (DPUUID). Questa macro deve avere una stringa di formattazione per controllarne l'output. L'output di esempio sarà simile al seguente: </p> <p> <code>"dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json"</code> </p> <p>L'impostazione <code>maxMappings</code> determina il numero di mappature da restituire dalla macro. Quando <code>maxMappings=0</code>, questa macro restituisce tutti i mapping per ogni DPID specificato. I dati vengono ordinati per marca temporale (la prima più recente) e restituiscono prima i risultati con la marca temporale più grande. </p> </td> 
+   <td colname="col2"> <p>L'output di questa macro mappa l'ID del provider di dati (DPID) con gli ID utente univoci correlati (DPUUID). Questa macro deve avere una stringa di formattazione per controllarne l'output. L'output di esempio sarà simile al seguente: </p> <p> <code>"dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json"</code> </p> <p>L' <code>maxMappings</code> impostazione determina il numero di mappature da restituire alla macro. Quando <code>maxMappings=0</code>, questa macro restituisce tutti i mapping per ogni DPID specificato. I dati vengono ordinati per marca temporale (la prima più recente) e restituiscono prima i risultati con la marca temporale più grande. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>endif</code> </p> </td> 
-   <td colname="col2"> <p>Obbligatorio quando si utilizzano le macro condizionale <code>if</code> e <code>SEGMENT_LIST</code> e <code>REMOVED_SEGMENT_LIST</code> . </p> </td> 
+   <td colname="col2"> <p>Obbligatorio quando si utilizzano le macro condizionali <code>if</code> e <code>SEGMENT_LIST</code> e <code>REMOVED_SEGMENT_LIST</code> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif</code> </p> </td> 
@@ -131,7 +134,7 @@ Macro utilizzate solo nelle righe di dati. Ad esempio, vedere Esempi [di macro](
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud </span> ID. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud ID.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
@@ -147,7 +150,7 @@ Macro utilizzate solo nelle righe di dati. Ad esempio, vedere Esempi [di macro](
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OUTPUT_ATTRIBUTE_VALUE</code> </p> </td> 
-   <td colname="col2"> <p>Restituisce <code>1</code> come valore statico e hardcoded. </p> </td> 
+   <td colname="col2"> <p>Restituisce <code>1</code> un valore statico e hardcoded. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PID</code> </p> </td> 
@@ -161,17 +164,17 @@ Macro utilizzate solo nelle righe di dati. Ad esempio, vedere Esempi [di macro](
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
    <td colname="col2"> <p>Restituisce un elenco di segmenti in un elenco. Accetta le seguenti variabili facoltative: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>: ID legacy. Obsoleto. Utilizzate <code>sid</code> (solo in lettere minuscole). </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>: ID legacy. Obsoleto. Utilizzate <code>sid</code> (solo in lettere minuscole). </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>: ID legacy. Obsoleto. Usa <code>sid</code> (solo lettere minuscole). </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>: ID legacy. Obsoleto. Usa <code>sid</code> (solo lettere minuscole). </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>: ID segmento. </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>: Restituisce <code>5</code>, un valore statico e hardcoded che identifica i dati come dati del segmento. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>: Mapping del segmento. Obsoleto. Utilizzate <code>sid</code> (solo in lettere minuscole). </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>: Mapping del segmento. Obsoleto. Usa <code>sid</code> (solo lettere minuscole). </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>: Una marca temporale Unix che indica l’ultima volta che un segmento è stato realizzato. </li> 
     </ul> <p>Inserire queste variabili tra parentesi graffe dopo la macro. Ad esempio, questo codice separa i risultati con un carattere "|" pipe: <code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SET_ATTRIBUTES</code> </p> </td> 
-   <td colname="col2"> <p>Restituisce <code>1</code> come valore statico e hardcoded. </p> </td> 
+   <td colname="col2"> <p>Restituisce <code>1</code> un valore statico e hardcoded. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TAB</code> </p> </td> 
@@ -183,8 +186,8 @@ Macro utilizzate solo nelle righe di dati. Ad esempio, vedere Esempi [di macro](
     <ul id="ul_757DEB56E4F849768468F3C166B0D171"> 
      <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code>: Tipi di caratteristiche identificati da un ID numerico. Questa variabile restituisce: 
       <ul id="ul_C9839266783D42CCADAAC3FEA33BE4D7"> 
-       <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code> che identifica una caratteristica DPM (offline, configurata da un processo in ingresso). </li> 
-       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> che identifica una caratteristica basata su regole (in tempo reale, integrata attraverso il <span class="wintitle"> DCS </span>). </li> 
+       <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code> che identifica una caratteristica DPM (offline, configurata da un processo in entrata). </li> 
+       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> che identifica un tratto basato su regole (in tempo reale, integrata attraverso il <span class="wintitle"> DCS </span>). </li> 
       </ul> </li> 
      <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>: ID caratteristica. </li> 
      <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>: L'ultima volta che il tratto è stato realizzato. Timestamp Unix. </li> 
@@ -192,7 +195,7 @@ Macro utilizzate solo nelle righe di dati. Ad esempio, vedere Esempi [di macro](
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ID </span> utente di Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">  ID </span> utente Audience Manager. </p> </td> 
   </tr> 
  </tbody> 
 </table>
