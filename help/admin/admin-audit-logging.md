@@ -1,16 +1,19 @@
 ---
 description: 'Utilizzate la funzione di registrazione dei controlli come primo punto di partenza per il debug dei problemi dei clienti. '
 seo-description: 'Utilizzate la funzione di registrazione dei controlli come primo punto di partenza per il debug dei problemi dei clienti. '
-seo-title: Registrazione controllo
-title: Registrazione controllo
+seo-title: Registrazione dei dati di audit
+title: Registrazione dei dati di audit
 uuid: null
 translation-type: tm+mt
 source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
 
-# Registrazione controllo {#audit-logging}
+# Registrazione dei dati di audit {#audit-logging}
 
 Utilizzate [!UICONTROL  Audit Logging] come punto di partenza per eseguire il debug dei problemi dei clienti.
 
