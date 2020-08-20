@@ -5,7 +5,7 @@ seo-title: Macro per formati file
 title: Macro per formati file
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
-source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Tali macro possono essere utilizzate in qualsiasi campo di formato. Per gli esem
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
-   <td colname="col2"> <p>ID provider dati Target. </p> </td> 
+   <td colname="col2"> <p>ID provider dati di destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MASTER_DPID</code> </p> </td> 
@@ -106,7 +106,7 @@ Macro utilizzate solo nelle righe di dati. Per gli esempi, vedere Esempi [di mac
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Inserisce una parentesi graffa chiusa }. </p> </td> 
+   <td colname="col2"> <p>Inserisce un <code>}</code> carattere parentesi graffe chiusa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -114,7 +114,7 @@ Macro utilizzate solo nelle righe di dati. Per gli esempi, vedere Esempi [di mac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identificatore Utente Univoco Partner Dati </span>. Restituisce l’ID assegnato a un visitatore utente/sito se l’ID è già stato sincronizzato con un ID dispositivo <span class="keyword"> Audience Manager </span> . </p> <p>Se il DPID è pari a 0, questa macro restituirà l' <span class="keyword"> Audience Manager </span> ID  invece dell'ID per l'utente. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Identificatore Utente Univoco Partner Dati </span>. Restituisce l’ID assegnato a un visitatore utente/sito se l’ID è già stato sincronizzato con un ID dispositivo <span class="keyword"> Audience Manager </span> . </p> <p>Se il DPID è pari a 0, questa macro restituirà l'ID Audience Manager <span class="keyword"> </span> invece dell'ID per l'utente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -138,7 +138,7 @@ Macro utilizzate solo nelle righe di dati. Per gli esempi, vedere Esempi [di mac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Inserisce una parentesi graffa aperta { carattere. </p> </td> 
+   <td colname="col2"> <p>Inserisce un <code>{</code> carattere di parentesi graffe aperta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -195,7 +195,7 @@ Macro utilizzate solo nelle righe di dati. Per gli esempi, vedere Esempi [di mac
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">  ID </span> utente Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">  ID utente Audience Manager </span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
