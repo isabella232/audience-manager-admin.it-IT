@@ -1,13 +1,13 @@
 ---
-description: Utilizzare la pagina Client OAuth2 per visualizzare un elenco dei client OAuth2 nella configurazione Audience Manager . Potete modificare o eliminare i client esistenti o creare nuovi client, a condizione che vi siano stati assegnati i ruoli utente appropriati.
-seo-description: Utilizzare la pagina Client OAuth2 per visualizzare un elenco dei client OAuth2 nella configurazione Audience Manager . Potete modificare o eliminare i client esistenti o creare nuovi client, a condizione che vi siano stati assegnati i ruoli utente appropriati.
+description: Utilizzare la pagina Client OAuth2 per visualizzare un elenco dei client OAuth2 nella configurazione del Audience Manager . Potete modificare o eliminare i client esistenti o creare nuovi client, a condizione che vi siano stati assegnati i ruoli utente appropriati.
+seo-description: Utilizzare la pagina Client OAuth2 per visualizzare un elenco dei client OAuth2 nella configurazione del Audience Manager . Potete modificare o eliminare i client esistenti o creare nuovi client, a condizione che vi siano stati assegnati i ruoli utente appropriati.
 seo-title: Client OAuth2
 title: Client OAuth2
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 translation-type: tm+mt
-source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Utilizzate la [!UICONTROL OAuth2 Clients] pagina per visualizzare un elenco dei 
 
 >[!NOTE]
 >
->Assicurati che il cliente legga la documentazione [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) nella Guida utente di [!DNL  Audience Manager.
+>Assicurati che il cliente legga la documentazione [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) nella Guida utente del Audience Manager .
 
 [!DNL OAuth2] è uno standard aperto per l&#39;autorizzazione che consente l&#39;accesso delegato protetto alle [!DNL Audience Manager] risorse per conto del proprietario di una risorsa.
 
