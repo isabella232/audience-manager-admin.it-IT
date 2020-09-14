@@ -1,11 +1,11 @@
 ---
-description: Utilizzate la pagina Server nello  Audience Manager Admin Tool per creare un nuovo server HTTP o per modificare un server esistente.
-seo-description: Utilizzate la pagina Server nello  Audience Manager Admin Tool per creare un nuovo server HTTP o per modificare un server esistente.
+description: Utilizzare la pagina Server dello strumento Amministrazione Audience Manager  per creare un nuovo server HTTP o per modificare un server esistente.
+seo-description: Utilizzare la pagina Server dello strumento Amministrazione Audience Manager  per creare un nuovo server HTTP o per modificare un server esistente.
 seo-title: Creare o modificare un server HTTP
 title: Creare o modificare un server HTTP
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: d518ba4011f203a7d450ce76d8c1924f7d73a815
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Creare o modificare un server HTTP {#create-or-edit-an-http-server}
 
-Utilizzate la [!UICONTROL Servers] pagina nello strumento di amministrazione Audience Manager  per creare un nuovo server HTTP o per modificare un server esistente.
+Utilizzate la [!UICONTROL Servers] pagina nello strumento Amministrazione Audience Manager  per creare un nuovo server HTTP o per modificare un server esistente.
 
 >[!NOTE]
 >
@@ -26,13 +26,13 @@ Utilizzate la [!UICONTROL Servers] pagina nello strumento di amministrazione Aud
 1. Dall&#39;elenco a **[!UICONTROL Protocol]** discesa, selezionate il protocollo desiderato: [!DNL HTTP].
 1. Compila i campi:
 
-   * **[!UICONTROL Domain]:**Specificare il dominio desiderato (host) per il server.
-   * **[!UICONTROL Port]:**Specificare la porta desiderata per il server. Per ogni tipo di crittografia viene visualizzata la porta predefinita. Se necessario, è possibile modificare la porta predefinita
-   * **[!UICONTROL Maximum Users Per Request]:**Specificate il numero massimo di utenti per richiesta consentito per questo server.
-   * **[!UICONTROL URL Prefix]:**Specificare il[!DNL URL]prefisso da utilizzare per il server.
-   * **[!UICONTROL Authentication URL]:**Specificare il[!UICONTROL Authentication URL]server per il`HTTP`server.
-   * **[!UICONTROL Authentication]:**Specificate il metodo di autenticazione desiderato:**[!UICONTROL None]**,**[!UICONTROL Username/Password]**o **[!UICONTROL SSH Key]**.
-   * **[!UICONTROL HTTP Signature Header]:**Il nome dell&#39;[!DNL HTTP]intestazione, fornito dal cliente, che contiene la chiave di[!DNL HTTP]firma. Il valore predefinito è[!UICONTROL X-Signature], come illustrato nell&#39;esempio seguente:
+   * **[!UICONTROL Domain]:** Specificare il dominio desiderato (host) per il server.
+   * **[!UICONTROL Port]:** Specificare la porta desiderata per il server. Per ogni tipo di crittografia viene visualizzata la porta predefinita. Se necessario, è possibile modificare la porta predefinita
+   * **[!UICONTROL Maximum Users Per Request]:** Specificate il numero massimo di utenti per richiesta consentito per questo server.
+   * **[!UICONTROL URL Prefix]:** Specificare il [!DNL URL] prefisso da utilizzare per il server.
+   * **[!UICONTROL Authentication URL]:** Specificare il [!UICONTROL Authentication URL] server per il `HTTP` server.
+   * **[!UICONTROL Authentication]:** Specificate il metodo di autenticazione desiderato: **[!UICONTROL None]**, **[!UICONTROL Username/Password]** o **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL HTTP Signature Header]:** Il nome dell&#39; [!DNL HTTP] intestazione, fornito dal cliente, che contiene la chiave di [!DNL HTTP] firma. Il valore predefinito è [!UICONTROL X-Signature], come illustrato nell&#39;esempio seguente:
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -45,9 +45,9 @@ Utilizzate la [!UICONTROL Servers] pagina nello strumento di amministrazione Aud
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]:**Chiave utilizzata per firmare la[!DNL HTTP]richiesta, fornita dal cliente.
-   * **[!UICONTROL Show Signature Key]:**Attivare o disattivare la visualizzazione della firma nel browser.
-   * **[!UICONTROL HTTP Signature Encryption Method]:**Specificare il metodo utilizzato per cifrare la firma. Utilizzarlo[!UICONTROL SHA1]a meno che il cliente non preferisca diversamente.
+   * **[!UICONTROL HTTP Signature Key]:** Chiave utilizzata per firmare la [!DNL HTTP] richiesta, fornita dal cliente.
+   * **[!UICONTROL Show Signature Key]:** Attivare o disattivare la visualizzazione della firma nel browser.
+   * **[!UICONTROL HTTP Signature Encryption Method]:** Specificare il metodo utilizzato per cifrare la firma. Utilizzarlo [!UICONTROL SHA1] a meno che il cliente non preferisca diversamente.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Utilizzate la [!UICONTROL Servers] pagina nello strumento di amministrazione Aud
    | [!UICONTROL URL Prefix] | [!UICONTROL /segments/aam] |
    | [!UICONTROL Authentication URL] | [!UICONTROL api.partner.com/oauth2/token] |
    | [!UICONTROL Authentication] | [!UICONTROL Username/Password] |
-   | [!UICONTROL Username] | [!UICONTROL *Autorizzazione *] |
+   | [!UICONTROL Username] | [!UICONTROL *Autorizzazione*] |
    | [!UICONTROL Password] | your_password_here |
    | [!UICONTROL HTTP Signature Header] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
