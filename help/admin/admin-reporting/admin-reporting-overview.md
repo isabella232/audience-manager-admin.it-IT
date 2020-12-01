@@ -1,6 +1,6 @@
 ---
-description: Gestire  rapporti Audience Manager creando nuovi rapporti o modificando o eliminando quelli esistenti. Potete anche assegnare un utente del portale come utente Tableau.
-seo-description: Gestire  rapporti Audience Manager creando nuovi rapporti o modificando o eliminando quelli esistenti. Potete anche assegnare un utente del portale come utente Tableau.
+description: Gestire i rapporti  Audience Manager creando nuovi rapporti o modificando o eliminando quelli esistenti. Potete anche assegnare un utente del portale come utente Tableau.
+seo-description: Gestire i rapporti  Audience Manager creando nuovi rapporti o modificando o eliminando quelli esistenti. Potete anche assegnare un utente del portale come utente Tableau.
 seo-title: Generazione di report
 title: Generazione di report
 uuid: d857044b-926d-4862-b8bc-799cb3ecca56
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Reporting {#reporting}
 
-Gestire  rapporti Audience Manager creando nuovi rapporti o modificando o eliminando quelli esistenti. Potete anche assegnare un utente del portale come [!DNL Tableau] utente.
+Gestire i rapporti  Audience Manager creando nuovi rapporti o modificando o eliminando quelli esistenti. Potete anche assegnare un utente del portale come utente [!DNL Tableau].
 
 <!-- c_reporting.xml -->
 
@@ -23,4 +23,4 @@ Gestire  rapporti Audience Manager creando nuovi rapporti o modificando o elimin
 
 Potete ordinare ciascuna colonna in ordine crescente o decrescente facendo clic sull’intestazione della colonna desiderata.
 
-Utilizzare la [!UICONTROL Search] casella o i controlli di impaginazione in fondo all&#39;elenco per trovare il rapporto desiderato.
+Utilizzate la casella [!UICONTROL Search] o i controlli di impaginazione in fondo all&#39;elenco per trovare il rapporto desiderato.
