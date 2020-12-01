@@ -19,9 +19,9 @@ Visualizza o modifica contenitori e mappature per fornitori di dati di prime par
 
 <!-- t_first_party_providers.xml -->
 
-1. Fate clic **[!UICONTROL Companies]**, quindi individuate e fate clic sulla società desiderata per visualizzare la [!UICONTROL Profile] pagina. Utilizzate la [!UICONTROL Search] casella o i controlli di impaginazione in fondo all’elenco per trovare la società desiderata. Potete ordinare ciascuna colonna in ordine crescente o decrescente facendo clic sull’intestazione della colonna desiderata.
+1. Fare clic su **[!UICONTROL Companies]**, quindi individuare e fare clic sulla società desiderata per visualizzare la relativa pagina [!UICONTROL Profile]. Utilizzate la casella [!UICONTROL Search] o i controlli di impaginazione in fondo all&#39;elenco per trovare la società desiderata. Potete ordinare ciascuna colonna in ordine crescente o decrescente facendo clic sull’intestazione della colonna desiderata.
 
-1. Fate clic sulla **[!UICONTROL First Party Data Providers]** scheda.
+1. Fare clic sulla scheda **[!UICONTROL First Party Data Providers]**.
 
    ![](assets/first_party_providers.png)
 
@@ -29,5 +29,5 @@ Visualizza o modifica contenitori e mappature per fornitori di dati di prime par
 
    ![Risultato del passaggio](assets/first_party_providers_edit.png)
 
-1. Spostate i contenitori dagli **[!UICONTROL Available Containers]** elenchi e **[!UICONTROL Selected Containers for This Data Provider]** selezionateli, quindi fate clic sulle frecce destra o sinistra come necessario.
+1. Spostate i contenitori dagli elenchi **[!UICONTROL Available Containers]** e **[!UICONTROL Selected Containers for This Data Provider]** selezionando i contenitori desiderati, quindi facendo clic sulle frecce a destra o a sinistra, a seconda delle necessità.
 1. Fate clic su **[!UICONTROL Save]** se avete apportato delle modifiche.
