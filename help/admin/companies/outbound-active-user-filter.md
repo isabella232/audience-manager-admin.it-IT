@@ -25,9 +25,9 @@ Per filtrare solo per utenti attivi:
 
 1. Clic **[!UICONTROL Companies]**.
 1. Selezionate la società con cui desiderate lavorare e fate clic su **[!UICONTROL Destinations]**.
-1. Nella [!UICONTROL Batch Data] sezione , impostate le seguenti opzioni:
+1. Nella sezione [!UICONTROL Batch Data], impostate le seguenti opzioni:
 
-   * **[!UICONTROL Sync Type]**: Selezionare **[!UICONTROL Customer]** o **[!UICONTROL Platform]**.
+   * **[!UICONTROL Sync Type]**: Selezionare  **[!UICONTROL Customer]** o  **[!UICONTROL Platform]**.
    * **[!UICONTROL Sync Type Lookback Period]**: Questo intervallo di tempo definisce l&#39;intervallo del file di dati. Le scelte includono **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
    * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. Tenete presente che questo filtro si applica solo ai file di sincronizzazione completi.
    * **[!UICONTROL Full Sync Scheduled Run]**: Questo determina la frequenza con cui si desidera ricevere il file. Le scelte includono **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** o **[!UICONTROL Never]** (per disattivare).
