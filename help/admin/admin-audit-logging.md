@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # Registrazione dei dati di audit {#audit-logging}
 
-Utilizzate [!UICONTROL  Audit Logging] come punto di partenza per eseguire il debug dei problemi dei clienti.
+Utilizzate [!UICONTROL  Audit Logging] come primo punto in cui eseguire il debug dei problemi dei clienti.
 
 >[!NOTE]
 >
->La [!UICONTROL Audit Logging] funzionalità e la documentazione sono attualmente in fase di sviluppo e sono soggette a modifiche. Registrare eventuali problemi riscontrati [!DNL JIRA] ([!DNL UI] team).
+>La funzionalità [!UICONTROL Audit Logging] e la documentazione sono attualmente in fase di sviluppo e sono soggette a modifiche. Registrare eventuali problemi riscontrati in [!DNL JIRA] ([!DNL UI] team).
 
 ![Visualizzazione Registrazione controllo](assets/audit-logging-img.png)
 
