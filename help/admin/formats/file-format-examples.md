@@ -15,15 +15,15 @@ ht-degree: 12%
 
 # Esempi di macro per formati file {#file-format-macro-examples}
 
-Esempi di utilizzo delle macro per creare modelli di file in uscita e [!DNL FTP] .
+Esempi di utilizzo delle macro per creare modelli di file in uscita [!DNL FTP].
 
 >[!NOTE]
 >
->Nelle tabelle, il tipo **grassetto** identifica ogni macro con il relativo output. Per gli esempi di formato, sono stati aggiunti i simboli &lt; > per separare visivamente ogni macro.
+>Nelle tabelle, il tipo **grassetto** identifica ciascuna macro con il relativo output. Per gli esempi di formato, sono stati aggiunti i simboli &lt; > per separare visivamente ogni macro.
 
 ## Macro comuni {#common-macros}
 
-Tali macro possono essere utilizzate in qualsiasi campo di formato. Per un elenco completo delle macro e delle definizioni, vedere le macro [del formato del](../formats/file-formats.md) file.
+Tali macro possono essere utilizzate in qualsiasi campo di formato. Per un elenco completo e per le definizioni, vedere le [macro del formato del file](../formats/file-formats.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -71,7 +71,7 @@ Tali macro possono essere utilizzate in qualsiasi campo di formato. Per un elenc
 
 ## Macro dei campi di intestazione {#header-field-macros}
 
-Macro utilizzate solo nei campi di intestazione. Per un elenco completo delle macro e delle definizioni, vedere le macro [del formato del](../formats/file-formats.md) file.
+Macro utilizzate solo nei campi di intestazione. Per un elenco completo e per le definizioni, vedere le [macro del formato del file](../formats/file-formats.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -88,9 +88,9 @@ Macro utilizzate solo nei campi di intestazione. Per un elenco completo delle ma
  </tbody>
 </table>
 
-## Macro delle righe di dati {#data-row-macros}
+## Macro di righe di dati {#data-row-macros}
 
-Macro utilizzate solo nei campi di intestazione. Per un elenco completo delle macro e delle definizioni, vedere le macro [del formato del](../formats/file-formats.md) file.
+Macro utilizzate solo nei campi di intestazione. Per un elenco completo e per le definizioni, vedere le [macro del formato del file](../formats/file-formats.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
