@@ -1,19 +1,18 @@
 ---
 cloud: Experience Cloud
-solution-title: Informazioni e supporto
-solution-hub-url: https://helpx.adobe.com/it/support/audience-manager.html
+solution-title: Learn & Support
+solution-hub-url: https://helpx.adobe.com/support/audience-manager.html
 solution-image: assets/aam-icon-24.png
-getting-started-title: Introduzione
+getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
-tutorials-title: Tutorial
-tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
+tutorials-title: Tutorials
+tutorials-url: https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.it-IT
 index: false
-translation-type: tm+mt
-source-git-commit: 2152bf70087aecc33ed81f35f034acb268b12bda
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 12%
+source-wordcount: '111'
+ht-degree: 1%
 
 ---
 
