@@ -5,7 +5,7 @@ seo-title: Destination Setup Troubleshooting
 title: Risoluzione dei problemi di impostazione della destinazione
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 4%
@@ -74,7 +74,7 @@ Il processo di definizione dei limiti viene eseguito due volte al giorno e più 
 
 ### Dimensioni di suddivisione file troppo grandi
 
-Quando si estendono file alle destinazioni, è possibile dividere file in uscita di dimensioni maggiori in blocchi di file. Assicurati che i singoli blocchi di file non superino i 10 GB. Vedere anche [Nome file dati in uscita: Sintassi ed esempi](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
+Quando si estendono file alle destinazioni, è possibile dividere file in uscita di dimensioni maggiori in blocchi di file. Assicurati che i singoli blocchi di file non superino i 10 GB. Vedere anche [Nome file dati in uscita: Sintassi ed esempi](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Come impostare le destinazioni per esportare ID Experience Cloud, ID cliente o ID Audience Manager in file di dati in uscita {#set-up-destinations-export}

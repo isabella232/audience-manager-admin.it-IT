@@ -5,9 +5,9 @@ seo-title: API Requirements and Recommendations
 title: Raccomandazioni e requisiti per l’utilizzo delle API
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -36,4 +36,4 @@ Quando lavori con il codice [!DNL Audience Manager] [!DNL API], tieni presente q
 * Identifica quale servizio sta chiamando il [!DNL API] (ad esempio, chiamate da un&#39;app client che utilizza i nostri [!DNL API]s o da modifiche in blocco).
 * Fornire l&#39;accesso ininterrotto ai [!DNL API]s. Un account associato a un dipendente specifico può essere cancellato quando lascia l&#39;azienda. Questo impedirà ai tuoi clienti di lavorare con il codice [!DNL API] disponibile. Un account generico non legato a un particolare dipendente aiuta a evitare questo problema.
 
-Ad esempio, per questo tipo di account, supponiamo che i clienti desiderino cambiare molti segmenti contemporaneamente con gli [Strumenti di gestione in blocco](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html). A questo scopo, devono avere accesso a [!DNL API] . Invece di aggiungere autorizzazioni a un utente specifico, crea un account utente [!DNL API] non specifico che disponga delle credenziali, della chiave e del segreto appropriati per effettuare chiamate [!DNL API]. Questo è utile anche se i client sviluppano applicazioni personalizzate che utilizzano i [!DNL Audience Manager] [!DNL API]s.
+Ad esempio, per questo tipo di account, supponiamo che i clienti desiderino cambiare molti segmenti contemporaneamente con gli [Strumenti di gestione in blocco](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). A questo scopo, devono avere accesso a [!DNL API] . Invece di aggiungere autorizzazioni a un utente specifico, crea un account utente [!DNL API] non specifico che disponga delle credenziali, della chiave e del segreto appropriati per effettuare chiamate [!DNL API]. Questo è utile anche se i client sviluppano applicazioni personalizzate che utilizzano i [!DNL Audience Manager] [!DNL API]s.
