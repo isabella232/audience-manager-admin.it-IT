@@ -3,10 +3,8 @@ product: audience manager
 audience: admin
 user-guide-title: Guida per l’amministrazione di Audience Manager
 breadcrumb-title: Guida per l’amministratore
-breadcrumb-url: /docs/audience-manager-admin/admin-guide/admin-home.html
 user-guide-description: Lo strumento di amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. È anche possibile visualizzare o modificare il profilo personale.
-translation-type: tm+mt
-source-git-commit: fb3eb6ee29332a84f2f389d4c6a2b6e2b7d0fced
+source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
@@ -38,8 +36,8 @@ ht-degree: 100%
    + [Creare o modificare un server S3](admin-servers/create-s3-server.md)
    + [Autorizzare l’accesso multiaccount al bucket Amazon S3](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [Eliminare un server](admin-servers/admin-delete-server.md)
-+ Generazione di rapporti {#reporting}
-   + [Generazione di rapporti](admin-reporting/admin-reporting-overview.md)
++ Reporting {#reporting}
+   + [Generazione di report](admin-reporting/admin-reporting-overview.md)
    + [Assegnare un utente del portale a un utente Tableau](admin-reporting/admin-assign-tableau-user.md)
 + Formati {#formats}
    + [Panoramica dei formati](formats/formats.md)
