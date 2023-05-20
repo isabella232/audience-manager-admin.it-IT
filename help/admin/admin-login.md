@@ -1,5 +1,5 @@
 ---
-description: Accedi allo strumento Adobe Audience Manager Admin con il tuo browser web. Lo strumento di amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. È anche possibile visualizzare o modificare il profilo personale.
+description: Accedi a Adobe Audience Manager Admin Tool con il browser Web. Lo strumento di amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. È anche possibile visualizzare o modificare il profilo personale.
 seo-description: Log in to the Adobe Audience Manager Admin tool with your web browser. The Audience Manager Admin tool lets you add and configure companies, servers, reports, formats, and users. You can also view or edit your personal profile.
 seo-title: Log In to Audience Manager Admin
 title: Accesso all’amministrazione di Audience Manager
@@ -14,13 +14,13 @@ ht-degree: 43%
 
 # Accesso all’amministrazione di Audience Manager {#log-in-to-audience-manager-admin}
 
-Accedi allo strumento Adobe Audience Manager Admin con il tuo browser web. Lo strumento di amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. È anche possibile visualizzare o modificare il profilo personale.
+Accedi a Adobe Audience Manager Admin Tool con il browser Web. Lo strumento di amministrazione di Audience Manager consente di aggiungere e configurare società, server, rapporti, formati e utenti. È anche possibile visualizzare o modificare il profilo personale.
 
 >[!IMPORTANT]
 >
-> Il pubblico di questo archivio di documentazione è costituito da dipendenti interni all’Adobe. Se sei un cliente Audience Manager, accedi alla [Panoramica della guida all’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)
+> Il pubblico per questo archivio della documentazione è composto da dipendenti interni agli Adobi. Se sei un cliente Audience Manager, accedi al [Panoramica della guida di Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)
 
 <!-- t_login.xml -->
 
-1. Accedere all’Audience Manager [!DNL Admin] sfogliando il seguente [!DNL URL]: [https://admin.demdex.com/](https://admin.demdex.com/).
-1. Seleziona il metodo di verifica desiderato nella casella a discesa e fai clic su **[!UICONTROL Verify]**.
+1. Accedere all’Audience Manager [!DNL Admin] sfogliando la finestra seguente [!DNL URL]: [https://admin.demdex.com/](https://admin.demdex.com/).
+1. Seleziona il metodo di verifica desiderato nell’elenco a discesa e fai clic su **[!UICONTROL Verify]**.

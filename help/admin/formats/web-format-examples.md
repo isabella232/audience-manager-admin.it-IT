@@ -1,23 +1,22 @@
 ---
-description: Esempi di combinazioni di macro HTTP comunemente utilizzate.
-seo-description: Esempi di combinazioni di macro HTTP comunemente utilizzate.
-seo-title: Esempi di macro per il formato HTTP
+description: Esempi di alcune combinazioni di macro HTTP comunemente utilizzate.
+seo-description: Examples of some commonly used HTTP macro combinations.
+seo-title: HTTP Format Macro Examples
 title: Esempi di macro per il formato HTTP
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 15%
+source-wordcount: '66'
+ht-degree: 12%
 
 ---
 
-
 # Esempi di macro per il formato HTTP {#http-format-macro-examples}
 
-Esempi di alcune combinazioni di macro [!DNL HTTP] comunemente utilizzate.
+Esempi di alcuni tipi di uso comune [!DNL HTTP] macro.
 
-Per un elenco delle macro e delle relative definizioni, vedere [Macro di formato HTTP](../formats/web-formats.md).
+Consulta la [Macro per il formato HTTP](../formats/web-formats.md) per un elenco delle macro e delle relative definizioni.
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -138,7 +137,7 @@ Per un elenco delle macro e delle relative definizioni, vedere [Macro di formato
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>Stampa una virgola se i campi <code>segments</code> e <code>removedSegments</code> non sono vuoti. Questo condizionale può essere utilizzato per le richieste POST quando concatenano elenchi per segmenti e segmenti rimossi. </p> </td> 
+   <td colname="col2"> <p>Stampa una virgola se i campi <code>segments</code> e <code>removedSegments</code> non sono vuoti. Questo condizionale può essere utilizzato per le richieste POST durante la concatenazione di elenchi per segmenti e segmenti rimossi. </p> </td> 
   </tr> 
  </tbody> 
 </table>

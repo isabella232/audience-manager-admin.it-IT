@@ -18,7 +18,7 @@ Lo strumento di amministrazione di Audience Manager consente di aggiungere e con
 
 >[!IMPORTANT]
 >
-> Il pubblico di questo archivio di documentazione è costituito da dipendenti interni all’Adobe. Se sei un cliente Audience Manager, accedi alla [Panoramica della guida all’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> Il pubblico per questo archivio della documentazione è composto da dipendenti interni agli Adobi. Se sei un cliente Audience Manager, accedi al [Panoramica della guida di Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -42,7 +42,7 @@ Lo strumento di amministrazione di Audience Manager consente di aggiungere e con
      <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Community Adobe Social</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Formazione e tutorial di Adobe</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
-     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/support/experience-cloud.html" format="https" scope="external"> Pagina principale della documentazione di prodotto</a> </li> 
+     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/it/support/experience-cloud.html" format="https" scope="external"> Pagina principale della documentazione di prodotto</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

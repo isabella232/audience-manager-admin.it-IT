@@ -1,29 +1,28 @@
 ---
 description: Esempi di utilizzo delle macro per creare modelli di file FTP in uscita.
-seo-description: Esempi di utilizzo delle macro per creare modelli di file FTP in uscita.
-seo-title: Esempi di macro per formati file
+seo-description: Examples of how macros are used to create outbound, FTP file templates.
+seo-title: File Format Macro Examples
 title: Esempi di macro per formati file
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 12%
+source-wordcount: '199'
+ht-degree: 11%
 
 ---
 
-
 # Esempi di macro per formati file {#file-format-macro-examples}
 
-Esempi di utilizzo delle macro per creare modelli di file in uscita [!DNL FTP].
+Esempi di utilizzo delle macro per la creazione in uscita [!DNL FTP] modelli di file.
 
 >[!NOTE]
 >
->Nelle tabelle, il tipo **grassetto** identifica ciascuna macro con il relativo output. Per gli esempi di formato, sono stati aggiunti i simboli &lt; > per separare visivamente ogni macro.
+>Nelle tabelle, **grassetto** type identifica ogni macro con il relativo output. Per gli esempi di formato, sono stati aggiunti i simboli &lt; > per separare visivamente ogni macro.
 
 ## Macro comuni {#common-macros}
 
-Tali macro possono essere utilizzate in qualsiasi campo di formato. Per un elenco completo e per le definizioni, vedere le [macro del formato del file](../formats/file-formats.md).
+Queste macro possono essere utilizzate in qualsiasi campo di formato. Consulta la [Macro per formati file](../formats/file-formats.md) per un elenco completo e le definizioni.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -58,7 +57,7 @@ Tali macro possono essere utilizzate in qualsiasi campo di formato. Per un elenc
    <td colname="col2"> <p>Formato: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output: 
      <ul id="ul_11B14E740E40474F8302BDB809C428FE"> 
       <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP: <code>ftp_215_888_iter_1449756724.sync </code> </li> 
-      <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https: <code>http_215_888_iter_1449756724.sync </code> </li> 
+      <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https <code>http_215_888_iter_1449756724.sync </code> </li> 
       <li id="li_8A204C7BEDBC41C096FE953B5F827DEC">S3: <code>s3_215_888_iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -69,9 +68,9 @@ Tali macro possono essere utilizzate in qualsiasi campo di formato. Per un elenc
  </tbody> 
 </table>
 
-## Macro dei campi di intestazione {#header-field-macros}
+## Macro per campi intestazione {#header-field-macros}
 
-Macro utilizzate solo nei campi di intestazione. Per un elenco completo e per le definizioni, vedere le [macro del formato del file](../formats/file-formats.md).
+Macro utilizzate solo nei campi intestazione. Consulta la [Macro per formati file](../formats/file-formats.md) per un elenco completo e le definizioni.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -83,14 +82,14 @@ Macro utilizzate solo nei campi di intestazione. Per un elenco completo e per le
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Output: <code>888 full.sync </code> </p> <p>Nell'output, il carattere di tabulazione non stampabile separa ogni elemento. </p> </td>
+   <td colname="col2"> <p>Formato: <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Output: <code>888 full.sync </code> </p> <p>Nell'output, il carattere di tabulazione non stampabile separa ciascun elemento. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Macro di righe di dati {#data-row-macros}
+## Macro righe dati {#data-row-macros}
 
-Macro utilizzate solo nei campi di intestazione. Per un elenco completo e per le definizioni, vedere le [macro del formato del file](../formats/file-formats.md).
+Macro utilizzate solo nei campi intestazione. Consulta la [Macro per formati file](../formats/file-formats.md) per un elenco completo e le definizioni.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -110,7 +109,7 @@ Macro utilizzate solo nei campi di intestazione. Per un elenco completo e per le
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST </code> </p> </td> 
-   <td colname="col2"> <p>In questo esempio viene creato un formato che restituisce i segmenti rimossi in un feed server-to-server. </p> <p> 
+   <td colname="col2"> <p>Questo esempio crea un formato che restituisce i segmenti rimossi in un feed da server a server. </p> <p> 
      <code>
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
       "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
@@ -129,7 +128,7 @@ Macro utilizzate solo nei campi di intestazione. Per un elenco completo e per le
   </tr>
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>Nell'output, il carattere di tabulazione non stampabile separa ogni elemento. </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>Nell'output, il carattere di tabulazione non stampabile separa ciascun elemento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TRAIT_LIST </code> </p> </td> 

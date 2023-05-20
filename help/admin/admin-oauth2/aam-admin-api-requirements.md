@@ -1,5 +1,5 @@
 ---
-description: Cose di cui devi incoraggiare i clienti a essere consapevoli quando lavorano con le API di Audience Manager.
+description: Aspetti di cui dovresti incoraggiare i tuoi clienti a essere consapevoli quando utilizzano le API Audience Manager.
 seo-description: Things you should encourage your clients to be aware of when they're working with the Audience Manager APIs.
 seo-title: API Requirements and Recommendations
 title: Raccomandazioni e requisiti per l’utilizzo delle API
@@ -14,26 +14,26 @@ ht-degree: 2%
 
 # Raccomandazioni e requisiti per l’utilizzo delle API {#api-requirements-and-recommendations}
 
-Cose di cui è necessario incoraggiare i clienti a essere consapevoli quando lavorano con gli Audienci Manager [!DNL API]s.
+Aspetti di cui dovresti incoraggiare i tuoi clienti a essere consapevoli quando lavorano con l’Audience Manager [!DNL API]s.
 
 ## Requisiti {#requirements}
 
-Quando lavori con il codice [!DNL Audience Manager] [!DNL API], tieni presente quanto segue:
+Quando si lavora con [!DNL Audience Manager] [!DNL API] codice:
 
-* **Parametri di richiesta:** tutti i parametri di richiesta sono richiesti, se non diversamente specificato.
-* **[!DNL JSON]tipo di contenuto:** specifica  `content-type: application/json` ** `accept: application/json` e nel codice.
+* **Parametri di richiesta:** Tutti i parametri di richiesta sono obbligatori se non specificato diversamente.
+* **[!DNL JSON]tipo di contenuto:** Specifica `content-type: application/json` *e* `accept: application/json` nel codice.
 
-* **Richieste e risposte:** invia richieste come  [!DNL JSON] oggetto formattato correttamente. [!DNL Audience Manager] risponde con dati  [!DNL JSON] formattati. Le risposte del server possono contenere dati richiesti, un codice di stato o entrambi.
+* **Richieste e risposte:** Inviare richieste come formattate correttamente [!DNL JSON] oggetto. [!DNL Audience Manager] risponde con [!DNL JSON] dati formattati. Le risposte del server possono contenere i dati richiesti, un codice di stato o entrambi.
 
-* **Accesso:** il tuo  [!DNL Audience Manager] consulente ti fornirà un ID cliente e una chiave che ti permetterà di effettuare  [!DNL API] richieste.
+* **Accesso:** Il tuo [!DNL Audience Manager] il consulente ti fornirà un ID cliente e una chiave che ti consentano di [!DNL API] richieste.
 
-* **Documentazione ed esempi di codice:** il testo in  ** corsivo rappresenta una variabile fornita o passata durante la creazione o la ricezione  [!DNL API] dei dati. Sostituisci il testo *in corsivo* con codice, parametri o altre informazioni richieste.
+* **Documentazione ed esempi di codice:** Testo in *corsivo* rappresenta una variabile fornita o trasmessa quando si crea o si riceve [!DNL API] dati. Sostituisci *corsivo* testo con codice, parametri o altre informazioni obbligatorie.
 
-## Recommendations: Creare un utente API generico {#recommendations}
+## Recommendations: creare un utente API generico {#recommendations}
 
-È consigliabile creare un account utente tecnico separato per lavorare con gli Audienci Manager [!DNL API]s. Si tratta di un account generico che non è associato o associato a un utente specifico nell&#39;organizzazione del cliente. Questo tipo di account utente [!DNL API] consente di eseguire 2 operazioni:
+È consigliabile creare un account utente tecnico separato per l’utilizzo dell’Audience Manager [!DNL API]s. Si tratta di un account generico non associato o associato a un utente specifico nell&#39;organizzazione del cliente. Questo tipo di [!DNL API] l’account utente consente di eseguire 2 operazioni:
 
-* Identifica quale servizio sta chiamando il [!DNL API] (ad esempio, chiamate da un&#39;app client che utilizza i nostri [!DNL API]s o da modifiche in blocco).
-* Fornire l&#39;accesso ininterrotto ai [!DNL API]s. Un account associato a un dipendente specifico può essere cancellato quando lascia l&#39;azienda. Questo impedirà ai tuoi clienti di lavorare con il codice [!DNL API] disponibile. Un account generico non legato a un particolare dipendente aiuta a evitare questo problema.
+* Identifica il servizio che chiama [!DNL API] (ad esempio, chiamate da un’app client che utilizzano [!DNL API]s o di apportare modifiche in blocco).
+* Fornire accesso ininterrotto al [!DNL API]s. Un conto associato a uno specifico dipendente può essere cancellato quando questi lascia la società. In questo modo i clienti non potranno utilizzare [!DNL API] codice. Un account generico non legato a un dipendente specifico aiuta a evitare questo problema.
 
-Ad esempio, per questo tipo di account, supponiamo che i clienti desiderino cambiare molti segmenti contemporaneamente con gli [Strumenti di gestione in blocco](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). A questo scopo, devono avere accesso a [!DNL API] . Invece di aggiungere autorizzazioni a un utente specifico, crea un account utente [!DNL API] non specifico che disponga delle credenziali, della chiave e del segreto appropriati per effettuare chiamate [!DNL API]. Questo è utile anche se i client sviluppano applicazioni personalizzate che utilizzano i [!DNL Audience Manager] [!DNL API]s.
+Come esempio o caso d’uso per questo tipo di account, supponiamo che i tuoi clienti vogliano cambiare molti segmenti contemporaneamente con [Strumenti di gestione in blocco](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). Per fare questo, hanno bisogno di [!DNL API] accesso. Invece di aggiungere le autorizzazioni a un utente specifico, crea un’ [!DNL API] account utente con credenziali, chiave e segreto appropriati [!DNL API] chiamate. Questa funzione è utile anche se i clienti sviluppano applicazioni personalizzate che utilizzano [!DNL Audience Manager] [!DNL API]s.

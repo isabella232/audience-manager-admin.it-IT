@@ -13,11 +13,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Il pubblico di questa pagina è composto da dipendenti interni agli Adobi. Se sei un cliente Audience Manager che richiede una mappatura dell’origine dati di seconde parti come descritto in questa pagina, contatta l’Assistenza clienti o il tuo Account Manager tecnico.
-> Non è necessario richiedere una mappatura per le relazioni di condivisione dei dati esistenti. La mappatura non è necessaria anche durante l’onboarding dei dati nelle origini dati di destinazione che appartengono al tuo PID.
+> Il pubblico per questa pagina è composto da dipendenti interni agli Adobi. Se sei un cliente Audience Manager che richiede una mappatura di origine dati di seconde parti come descritto in questa pagina, contatta l’Assistenza clienti o il tuo Technical Account Manager.
+> Non è necessario per richiedere la mappatura per le relazioni di condivisione dei dati esistenti. Inoltre, la mappatura non è necessaria quando si inseriscono dati in origini dati di destinazione che appartengono al tuo PID.
 
-Per evitare l’onboarding accidentale di file e dati nelle origini dati target di proprietà di altri partner, Audience Manager ha aggiunto un requisito di mappatura tra l’ID partner (PID) e le origini dati (DPID) di proprietà di altri partner. Ulteriori informazioni su PID e DPID in [indice degli ID di Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html).
+Per evitare l’onboarding accidentale di file e dati nelle origini dati di destinazione di proprietà di altri partner, Audience Manager ha aggiunto un requisito di mappatura tra l’ID partner (PID) e le origini dati (DPID) di proprietà di altri partner. Ulteriori informazioni su PID e DPID in [indice degli ID Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html).
 
-A scopo di condivisione dei dati di seconde parti, se un partner o un cliente di Audience Manager desidera acquisire file in un’origine dati di destinazione che non possiede, deve richiedere una mappatura tra il proprio ID partner (PID) e quella specifica origine dati (DPID). Se la mappatura è mancante, i file non verranno elaborati dal processo di dati in entrata e i dati non saranno caricati in Audience Manager.
+Ai fini della condivisione dei dati di seconde parti, se un partner o un cliente Audience Manager desidera acquisire i file in un’origine dati di destinazione di cui non è proprietario, deve richiedere la mappatura tra il proprio ID partner (PID) e tale origine dati specifica (DPID). Se manca la mappatura, i file non verranno elaborati dal processo di dati in entrata e i dati non verranno inseriti in Audience Manager.
 
-Per creare la mappatura, invia un ticket Jira al team di ingegneria di Audience Manager. Visualizza un esempio di biglietto Jira [qui](https://jira.corp.adobe.com/browse/AAM-60353). Non è necessario creare mappature per le relazioni di condivisione dei dati esistenti.
+Per creare tale mappatura, invia un ticket Jira al team di progettazione Audience Manager. Visualizza un esempio di ticket Jira [qui](https://jira.corp.adobe.com/browse/AAM-60353). Non è necessario richiedere la creazione di mappature per le relazioni di condivisione dei dati esistenti.

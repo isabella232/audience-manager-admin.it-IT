@@ -1,27 +1,26 @@
 ---
-description: 'Utilizzate la funzione di registrazione dei controlli come primo punto di partenza per il debug dei problemi dei clienti. '
-seo-description: 'Utilizzate la funzione di registrazione dei controlli come primo punto di partenza per il debug dei problemi dei clienti. '
-seo-title: Registrazione dei dati di audit
+description: Utilizza la registrazione di audit come primo passo per eseguire il debug dei problemi dei clienti.
+seo-description: Use Audit Logging as a first place to go when debugging customer issues.
+seo-title: Audit Logging
 title: Registrazione dei dati di audit
 uuid: null
-translation-type: tm+mt
-source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 9%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
-
 # Registrazione dei dati di audit {#audit-logging}
 
-Utilizzate [!UICONTROL  Audit Logging] come primo punto in cui eseguire il debug dei problemi dei clienti.
+Utilizzare [!UICONTROL  Audit Logging] come primo punto da seguire per il debug dei problemi dei clienti.
 
 >[!NOTE]
 >
->La funzionalità [!UICONTROL Audit Logging] e la documentazione sono attualmente in fase di sviluppo e sono soggette a modifiche. Registrare eventuali problemi riscontrati in [!DNL JIRA] ([!DNL UI] team).
+>Il [!UICONTROL Audit Logging] La funzionalità e la documentazione sono attualmente in fase di sviluppo e soggette a modifiche. Segnala eventuali problemi riscontrati in [!DNL JIRA] ([!DNL UI] team).
 
-![Visualizzazione Registrazione controllo](assets/audit-logging-img.png)
+![Visualizzazione registrazione di controllo](assets/audit-logging-img.png)
 
 <!-- 
 

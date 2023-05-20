@@ -1,47 +1,46 @@
 ---
-description: Gestisci i seguenti limiti per i modelli algoritmici, i segmenti, le destinazioni e le caratteristiche della società.
-seo-description: Gestisci i seguenti limiti per i modelli algoritmici, i segmenti, le destinazioni e le caratteristiche della società.
-seo-title: Gestire i limiti aziendali
+description: Gestisci i seguenti limiti per modelli algoritmici, segmenti, destinazioni e caratteristiche della società.
+seo-description: Manage the following limits for the company  algorithmic models, segments, destinations, and traits.
+seo-title: Manage Company Limits
 title: Gestire i limiti aziendali
 uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
-translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+exl-id: dd6d04ef-895a-4bd7-bf9d-851e2fdcb594
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 4%
+source-wordcount: '285'
+ht-degree: 3%
 
 ---
 
-
 # Gestire i limiti aziendali {#manage-company-limits}
 
-Gestisci i seguenti limiti per la società: modelli algoritmici, segmenti, destinazioni e caratteristiche.
+Gestisci i seguenti limiti per l’azienda: modelli algoritmici, segmenti, destinazioni e caratteristiche.
 
 <!-- t_company_limits.xml -->
 
-1. Fare clic su **[!UICONTROL Companies]**, quindi individuare e fare clic sulla società desiderata per visualizzare la relativa pagina [!UICONTROL Profile]. Utilizzate la casella [!UICONTROL Search] o i controlli di impaginazione in fondo all&#39;elenco per trovare la società desiderata. Potete ordinare ciascuna colonna in ordine crescente o decrescente facendo clic sull’intestazione della colonna desiderata.
-1. Fare clic sulla scheda **[!UICONTROL Limits]**.
+1. Clic **[!UICONTROL Companies]**, quindi individuare e fare clic sulla società desiderata per visualizzare [!UICONTROL Profile] pagina. Utilizza il [!UICONTROL Search] o i controlli di impaginazione nella parte inferiore dell&#39;elenco per individuare la società desiderata. Puoi ordinare ogni colonna in ordine crescente o decrescente facendo clic sull’intestazione della colonna desiderata.
+1. Fai clic su **[!UICONTROL Limits]** scheda.
 1. Compila i campi:
 
    >[!NOTE]
    >
-   >Se uno dei campi è vuoto, il valore predefinito è al momento illimitato. Tutti i campi sono indipendenti. Ad esempio, nella sezione [!UICONTROL Trait Limits] è possibile specificare 100 per [!UICONTROL Total Traits] e 100 per gli altri tipi di caratteristiche. La somma di [!UICONTROL Max Number of Algorithmic Traits], [!UICONTROL Max Number or Rule Based Traits] e [!UICONTROL Max Number of Onboarded Traits] non equivale a [!UICONTROL Total Number].
+   >Se uno dei campi è vuoto, il valore predefinito è attualmente illimitato. Tutti i campi sono indipendenti. Ad esempio, nel [!UICONTROL Trait Limits] , è possibile specificare 100 per [!UICONTROL Total Traits] e 100 per gli altri tipi di caratteristiche. La somma di [!UICONTROL Max Number of Algorithmic Traits], [!UICONTROL Max Number or Rule Based Traits], e [!UICONTROL Max Number of Onboarded Traits] non è uguale a [!UICONTROL Total Number].
 
-   * **[!UICONTROL Trait Folder Limits]**: Specifica i  [!UICONTROL Trait Folder] limiti per la società:
-      * **[!UICONTROL Max number of Trait Folders]**: Specificate il numero massimo di  [!UICONTROL Trait Folders] società.
-      * **[!UICONTROL Max depth of Trait Folders]**: Specificate la profondità massima che può avere la  [!UICONTROL Trait Folder] struttura della società.
-   * **[!UICONTROL AlgoModel Limits]**: Specificate i limiti algoritmici per la società:
-      * **[!UICONTROL Total Number]**: Specificate il numero totale di caratteristiche algoritmiche che la società può avere.
-   * **[!UICONTROL Segment Limits]**: Specifica i limiti del segmento per la società:
-      * **[!UICONTROL Total Number]**: Specifica il numero totale di segmenti che la società può avere.
-   * **[!UICONTROL Destinations Limits]**: Specifica i limiti di destinazione per la società:
-      * **[!UICONTROL Total Number]**: Specificate il numero totale di destinazioni che questa società può avere.
-      * **[!UICONTROL Max Number of URL Destinations]**: Specificate il numero massimo di destinazioni URL che questa società può avere.
-      * **[!UICONTROL Max Number of AdServer Destinations]**: Specificate il numero massimo di  [!UICONTROL AdServer] destinazioni che questa società può avere.
-      * **[!UICONTROL Max Number of S2S Destinations]**: Specificate il numero massimo di destinazioni S2S che questa società può avere.
-   * **[!UICONTROL Trait Limits]**: Specifica i limiti di caratteristiche per la società:
-      * **[!UICONTROL Total Number]**: Specificate il numero totale di caratteristiche che questa società può avere.
-      * **[!UICONTROL Max Number of Algorithmic Traits]**: Specificate il numero massimo di caratteristiche algoritmiche che la società può avere.
-      * **[!UICONTROL Max Number of Rule Based Traits]**: Specificate il numero massimo di caratteristiche basate su regola che la società può avere.
-      * **[!UICONTROL Max Number of Onboarded Traits]**: Specificate il numero massimo di caratteristiche registrate che la società può avere.
+   * **[!UICONTROL Trait Folder Limits]**: specifica la [!UICONTROL Trait Folder] limiti per questa società:
+      * **[!UICONTROL Max number of Trait Folders]**: specifica il numero massimo di [!UICONTROL Trait Folders] questa azienda può avere.
+      * **[!UICONTROL Max depth of Trait Folders]**: specifica la profondità massima dell’azienda [!UICONTROL Trait Folder] struttura può avere.
+   * **[!UICONTROL AlgoModel Limits]**: specifica i limiti algoritmici per questa società:
+      * **[!UICONTROL Total Number]**: specifica il numero totale di caratteristiche algoritmiche che possono avere questa azienda.
+   * **[!UICONTROL Segment Limits]**: specifica i limiti del segmento per questa società:
+      * **[!UICONTROL Total Number]**: specifica il numero totale di segmenti che può avere questa azienda.
+   * **[!UICONTROL Destinations Limits]**: specifica i limiti di destinazione per questa società:
+      * **[!UICONTROL Total Number]**: specifica il numero totale di destinazioni possibili per questa società.
+      * **[!UICONTROL Max Number of URL Destinations]**: specifica il numero massimo di destinazioni URL che può avere questa società.
+      * **[!UICONTROL Max Number of AdServer Destinations]**: specifica il numero massimo di [!UICONTROL AdServer] destinazioni che questa società può avere.
+      * **[!UICONTROL Max Number of S2S Destinations]**: specifica il numero massimo di destinazioni S2S che può avere questa società.
+   * **[!UICONTROL Trait Limits]**: specifica i limiti di caratteristiche per questa società:
+      * **[!UICONTROL Total Number]**: specifica il numero totale di caratteristiche che può avere questa azienda.
+      * **[!UICONTROL Max Number of Algorithmic Traits]**: specifica il numero massimo di caratteristiche algoritmiche che la società può avere.
+      * **[!UICONTROL Max Number of Rule Based Traits]**: specifica il numero massimo di caratteristiche basate su regole che può avere questa azienda.
+      * **[!UICONTROL Max Number of Onboarded Traits]**: specifica il numero massimo di caratteristiche onboarded che può avere questa azienda.
 1. Clic **[!UICONTROL Save]**.

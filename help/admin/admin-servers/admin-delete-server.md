@@ -1,31 +1,30 @@
 ---
-description: Utilizzare la pagina Server dello strumento Amministrazione Audience Manager  per eliminare un server esistente.
-seo-description: Utilizzare la pagina Server dello strumento Amministrazione Audience Manager  per eliminare un server esistente.
-seo-title: Eliminare un server
+description: Utilizzare la pagina Server di Audience Manager Admin Tool per eliminare un server esistente.
+seo-description: Use the Servers page in the Audience Manager Admin tool to delete an existing server.
+seo-title: Delete a Server
 title: Eliminare un server
 uuid: 21d8feeb-a205-43bb-9bc1-9048c918a80a
-translation-type: tm+mt
-source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+exl-id: 1df9dc2e-b75d-4ee1-9ec6-9abbdad41f0c
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 10%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
-
 # Eliminare un server {#delete-a-server}
 
-Utilizzare la pagina [!UICONTROL Servers] nello strumento Amministrazione Audience Manager  per eliminare un server esistente.
+Utilizza il [!UICONTROL Servers] nello strumento di amministrazione Audience Manager per eliminare un server esistente.
 
 <!-- t_delete_server.xml -->
 
 >[!NOTE]
 >
->Per eliminare i server esistenti è necessario disporre del ruolo [!UICONTROL DEXADMIN].
+>È necessario disporre di [!UICONTROL DEXADMIN] per eliminare i server esistenti.
 
 1. Per eliminare un server esistente, fare clic su **[!UICONTROL Servers]**.
 
-   ![Risultato del passaggio](assets/servers.png)
+   ![Risultato passaggio](assets/servers.png)
 
-1. Fare clic su ![](assets/icon_delete.png) nella colonna **[!UICONTROL Actions]** del server desiderato.
-1. Fare clic su **[!UICONTROL OK]** per confermare l&#39;eliminazione.
+1. Clic  ![](assets/icon_delete.png) nel **[!UICONTROL Actions]** del server desiderato.
+1. Clic **[!UICONTROL OK]** per confermare l’eliminazione.

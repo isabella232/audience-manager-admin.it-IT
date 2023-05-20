@@ -1,61 +1,60 @@
 ---
-description: Modificate i dettagli del profilo dello strumento Amministrazione Audience Manager  o modificate la password.
-seo-description: Modificate i dettagli del profilo dello strumento Amministrazione Audience Manager  o modificate la password.
-seo-title: Il mio profilo
+description: Modifica i dettagli del tuo profilo Audience Manager Admin Tool o modifica la password.
+seo-description: Edit the details of your Audience Manager Admin tool profile or change your password.
+seo-title: My Profile
 title: Il mio profilo
 uuid: ccaa611d-c855-484e-9696-081d9b4e0935
-translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+exl-id: d213f734-af52-4f43-8733-af67ce6f4e98
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 4%
+source-wordcount: '330'
+ht-degree: 3%
 
 ---
 
-
 # Il mio profilo {#my-profile}
 
-Modificate i dettagli del profilo dello strumento Amministrazione Audience Manager  o modificate la password.
+Modifica i dettagli del tuo profilo Audience Manager Admin Tool o modifica la password.
 
 <!-- c_my_profile.xml -->
 
 ## Modifica profilo {#edit-profile}
 
-Visualizzate e modificate il profilo dello strumento Amministrazione  Audience Manager, inclusi nome e cognome, nome utente, indirizzo e-mail, numero di telefono, [!UICONTROL IMS ID], ruoli utente e stato.
+Visualizzare e modificare il profilo dello strumento di amministrazione di Audience Manager, compresi nome e cognome, nome utente, indirizzo e-mail, numero di telefono, [!UICONTROL IMS ID], ruoli utente e stato.
 
 <!-- t_edit_profile.xml -->
 
 1. Clic **[!UICONTROL My Profile]**.
 
-   ![Risultato del passaggio](assets/profile.png)
+   ![Risultato passaggio](assets/profile.png)
 
 2. Compila i campi:
-   * **[!UICONTROL First Name]:** (Obbligatorio) Specificate il vostro nome.
-   * **[!UICONTROL Last Name]:** (Obbligatorio) Specificate il vostro cognome.
-   * **[!UICONTROL Username]:** (Obbligatorio) Specificate il primo nome utente.
-   * **[!UICONTROL Email Address]:** (Obbligatorio) Specificate il vostro indirizzo e-mail.
-   * **[!UICONTROL Phone Number]:** Specificate il numero di telefono.
-   * **[!UICONTROL IMS ID]:** Specificate l&#39;ID del servizio di messaggistica Internet.
-   * **[!UICONTROL User Roles]:** Selezionate i ruoli utente desiderati:
-      * **[!UICONTROL DEXADMIN]:** Fornisce l&#39;accesso dell&#39;amministratore per eseguire le attività nello strumento Amministrazione Audience Manager . Se non selezionate questa opzione, potete scegliere i singoli ruoli. Questi ruoli consentono agli utenti di eseguire attività utilizzando [!DNL API] chiamate, ma non nello strumento Amministratore.
-      * **[!UICONTROL CREATE_USERS]:** Consente agli utenti di creare nuovi utenti utilizzando una  [!DNL API] chiamata.
-      * **[!UICONTROL DELETE_USERS]:** Consente agli utenti di eliminare gli utenti esistenti utilizzando una  [!DNL API] chiamata.
-      * **[!UICONTROL EDIT_USERS]:** Consente agli utenti di modificare gli utenti esistenti utilizzando una  [!DNL API] chiamata.
-      * **[!UICONTROL VIEW_USERS]:** Consente agli utenti di visualizzare altri utenti nella configurazione del Audience Manager  utilizzando una  [!DNL API] chiamata.
-      * **[!UICONTROL CREATE_PARTNERS]:** Consente agli utenti di creare partner  Audience Manager utilizzando una  [!DNL API] chiamata.
-      * **[!UICONTROL DELETE_PARTNERS]:** Consente agli utenti di eliminare  partner di Audience Manager utilizzando una  [!DNL API] chiamata.
-      * **[!UICONTROL EDIT_PARTNERS]:** Consente agli utenti di modificare  partner di Audience Manager utilizzando una  [!DNL API] chiamata.
-      * **[!UICONTROL VIEW_PARNTERS]:** Consente agli utenti di visualizzare  partner di Audience Manager utilizzando una  [!DNL API] chiamata.
-   * **[!UICONTROL Status]:** Selezionare lo stato desiderato:
-      * **[!UICONTROL Active]:** Specifica che l&#39;utente corrente è in un utente  Audience Manager attivo.
+   * **[!UICONTROL First Name]:** (Obbligatorio) Specifica il nome.
+   * **[!UICONTROL Last Name]:** (Obbligatorio) Specifica il cognome.
+   * **[!UICONTROL Username]:** (Obbligatorio) Specifica il nome utente.
+   * **[!UICONTROL Email Address]:** (Obbligatorio) Specifica il tuo indirizzo e-mail.
+   * **[!UICONTROL Phone Number]:** Specifica il numero di telefono.
+   * **[!UICONTROL IMS ID]:** Specificare l&#39;ID del servizio di messaggistica Internet.
+   * **[!UICONTROL User Roles]:** Seleziona i ruoli utente desiderati:
+      * **[!UICONTROL DEXADMIN]:** Fornisce all’amministratore l’accesso per eseguire attività nello strumento di amministrazione Audience Manager. Se non si seleziona questa opzione, è possibile scegliere singoli ruoli. Questi ruoli consentono agli utenti di eseguire attività tramite [!DNL API] ma non nello strumento di amministrazione.
+      * **[!UICONTROL CREATE_USERS]:** Consente agli utenti di creare nuovi utenti utilizzando un [!DNL API] chiamare.
+      * **[!UICONTROL DELETE_USERS]:** Consente agli utenti di eliminare gli utenti esistenti utilizzando una [!DNL API] chiamare.
+      * **[!UICONTROL EDIT_USERS]:** Consente agli utenti di modificare gli utenti esistenti utilizzando un [!DNL API] chiamare.
+      * **[!UICONTROL VIEW_USERS]:** Consente agli utenti di visualizzare altri utenti nella configurazione dell’Audience Manager utilizzando un [!DNL API] chiamare.
+      * **[!UICONTROL CREATE_PARTNERS]:** Consente agli utenti di creare partner Audienci Manager utilizzando un [!DNL API] chiamare.
+      * **[!UICONTROL DELETE_PARTNERS]:** Consente agli utenti di eliminare i partner Audienci Manager utilizzando un [!DNL API] chiamare.
+      * **[!UICONTROL EDIT_PARTNERS]:** Consente agli utenti di modificare i partner di Audience Manager utilizzando un [!DNL API] chiamare.
+      * **[!UICONTROL VIEW_PARNTERS]:** Consente agli utenti di visualizzare i partner Audienci Manager utilizzando un [!DNL API] chiamare.
+   * **[!UICONTROL Status]:** Seleziona lo stato desiderato:
+      * **[!UICONTROL Active]:** Specifica che questo utente si trova in un utente Audience Manager attivo.
       * **[!UICONTROL Deactivated]:** Specifica che questo utente è un utente disattivato in Gestione dell&#39;audience.
-      * **[!UICONTROL Expired]:** Specifica che l&#39;account di questo utente nel  Audience Manager è scaduto.
-      * **[!UICONTROL Locked Out]:** Specifica che l&#39;account di questo utente nel Audience Manager  è bloccato.
+      * **[!UICONTROL Expired]:** Specifica che l&#39;account dell&#39;utente in Audience Manager è scaduto.
+      * **[!UICONTROL Locked Out]:** Specifica che l&#39;account di questo utente in Audience Manager è bloccato.
 3. Clic **[!UICONTROL Submit]**.
 
-## Modifica password {#change-password}
+## Cambia password {#change-password}
 
-Modificate la password dello strumento Amministrazione Audience Manager .
+Cambia la password dello strumento di amministrazione Audience Manager.
 
 <!-- t_change_password.xml -->
 
@@ -64,16 +63,16 @@ Modificate la password dello strumento Amministrazione Audience Manager .
 
    ![](assets/change_password.png)
 
-   La password  Audience Manager deve essere:
+   La password di Audience Manager deve essere:
 
-   * almeno otto caratteri;
-   * Contenere almeno un carattere maiuscolo;
-   * Contiene almeno un carattere minuscolo;
-   * Contiene almeno un numero;
+   * Lunghezza minima di otto caratteri;
+   * contenere almeno un carattere maiuscolo;
+   * contenere almeno un carattere minuscolo;
+   * contenere almeno un numero;
    * contenere almeno un carattere speciale;
-   * Inizia e termina con un carattere alfanumerico;
+   * Iniziare e terminare con un carattere alfanumerico;
    * Iniziare e terminare con un carattere alfanumerico.
 
-1. Specificate la vecchia password.
-1. Specificate la nuova password, quindi confermate la nuova password.
+1. Specifica la vecchia password.
+1. Specifica la nuova password, quindi conferma la nuova password.
 1. Clic **[!UICONTROL OK]**.

@@ -16,7 +16,7 @@ ht-degree: 94%
 
 Tutti gli aggiornamenti (informazioni aggiunte, eliminate e corrette) della Guida per l’amministrazione di Audience Manager, ordinati per data.
 
-Per informazioni sulle versioni con nuove funzioni, correzioni di bug e miglioramenti, consulta le [note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Per le modifiche alla documentazione [!DNL Audience Manager], consulta [Aggiornamenti alla documentazione](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
+Per informazioni sulle versioni con nuove funzioni, correzioni di bug e miglioramenti, consulta le [note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Per [!DNL Audience Manager] modifiche alla documentazione, consulta [Aggiornamenti alla documentazione](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
 ## Aggiornamenti alla documentazione di AAM 2019 {#aam-2019-docs-updates}
 
